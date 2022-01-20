@@ -10,7 +10,7 @@ import android.webkit.WebViewClient;
 public class WebViewController extends WebViewClient {
 
     public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request, Context context) {
-        if ("www.nattukaran.com".equals(request.getUrl().getHost())) {
+        if ("www.google.com".equals(request.getUrl().getHost())) {
             // This is my website, so do not override; let my WebView load the page
             return false;
         }
