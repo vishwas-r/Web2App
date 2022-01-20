@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Web2App</string>
+    <string name="web_url">https://google.com</string>
 </resources>
