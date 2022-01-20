@@ -11,7 +11,7 @@ public class WebViewController extends WebViewClient {
 
     public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request, Context context) {
         if ("google.com".equals(request.getUrl().getHost())) {
-			// This is my website, so do not override; let my WebView load the page
+	    // This is my website, so do not override; let my WebView load the page
             return false;
         }
         // Otherwise, the link is not for a page on my site, so launch another Activity that handles URLs
